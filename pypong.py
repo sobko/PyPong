@@ -15,7 +15,6 @@ def run_game():
 
     #game loop
 
-    
     while True:
         #changes based on events
         
@@ -25,7 +24,7 @@ def run_game():
                     pygame.quit()
                     
         #automatic changes
-                    
+        ball_x += 10
 
         #draw the stuff
         #first a black screen
